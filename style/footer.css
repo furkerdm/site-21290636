@@ -1,0 +1,35 @@
+footer{
+    font-size: 20px;
+    table-layout: fixed;
+    color: rgb(107, 107, 107);
+    a{
+        text-decoration: none;
+        font-size: x-large;
+        color: gray;
+    }
+    a:hover{
+        color: rgb(51, 51, 51);
+    }
+    a:active{
+        color: red;
+    }
+    #socialIcons{
+        width: 15px;
+        height: 15px;
+    }
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    #padding{
+        padding-right: 25px;
+    }
+}
+#logo_padding{
+    width: 25%;
+}
+#footer_padding{
+    width: 40%;
+}
+
+
+

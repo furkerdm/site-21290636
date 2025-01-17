@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+    <title>İletişim</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/iletisim.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <script src="../script/script.js"></script>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <table align="center">
+            <tr>
+                <td rowspan="4"><a href="index.html"><img  src="../img/logo.png" alt="" width="100px", height="100px"> </a></td>
+            </tr>
+
+            <tr>
+                <td , id="logo_padding">HYD</td>
+
+            
+            </tr>
+
+            <tr>
+
+                <td>Ltd.</td>
+
+                <td id="header_links">
+                    <a href="#hakkimizda">Hakkımızda</a>&emsp;
+                    <a href="#hizmetler">Hizmetler</a>&emsp;
+                    <a href="#topluluk">Topluluk</a>&emsp;
+                    <a href="#fiyatlandirma">Fiyatlandırma</a>&emsp;
+                    <a href="iletisim.html">İletişim</a>&emsp;
+                </td>   
+                <td>
+                    <div class="dropdown">
+                        <button class="dropbtn"><img src="../img/TUR.png" style="width: 20px;" alt="TUR"></button>
+                        <div class="dropdown-content">
+                          <a href="indexENG.html"><img src="../img/ENG.png" style="width: 20px;" alt=""></a>
+                          <a href="indexDE.html"><img src="../img/DE.png" style="width: 20px;" alt=""></a>
+                        </div>
+                      </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Co.</td>
+
+                <td></td>
+            </tr>
+
+        </table>
+    </header>
+
+    <div style="padding: 15px;"></div>
+
+    <div class="form_body">
+
+        <p id="back_arrow"><a id="back_arrow" href="index.html"><img src="../img/back_arrow.png" alt="back_arrow">ANA SAYFA</a></p>
+
+        <h1>İLETİŞİM</h1>
+        <hr>
+
+        <h3>
+            Sorularınız, önerileriniz veya iş birliği tekliflerinizi 
+            duymaktan mutluluk duyarız! 
+            Aşağıdaki formu doldurarak bize kolayca ulaşabilirsiniz. 
+            Ekibimiz size en kısa sürede geri dönüş yapacaktır.
+        </h3>
+        
+
+        <div class="form_div">                
+
+            <form id="contactForm" action="../php/formsubmit.php" method="get" onsubmit="return validateForm();">
+
+                <label for="name">İsim - Soyisim:</label>
+                <input type="text" name="name" id="name"> <br> <br>
+
+                <label for="email">E-Posta Adresi:</label>
+                <input type="email" name="email" id="email"> <br> <br>
+
+                <label for="phone">Telefon Numarası: (Opsiyonel)</label>
+                <input type="tel" name="phone" id="phone" maxlength=11 placeholder="05xxxxxxxxx"> <br> <br>
+
+                <label for="subject">Konu:</label> <br>
+                <select id="subject"  name="subject">
+                    <option value="" disabled selected hidden>Seçiniz...</option>
+                    <option value="a">a Konusu</option>
+                    <option value="b">b Konusu</option>
+                    <option value="c">c Konusu</option>
+                </select> <br> <br>
+
+                <label for="message">Mesajınız:</label>
+                <textarea name="message" id="message" rows="10" cols="72"></textarea>
+
+                <input type="submit" value="Gönder" id="submit">
+                <input type="reset" value="Sıfırla" id="reset">
+
+            </form>
+            <img src="../img/business_card.png" alt="business_card" style="margin-left: auto; margin-right: auto; width: 90%;">
+
+
+        </div> 
+        
+
+    </div>
+
+
+
+    <div style="padding: 15px;"></div>
+
+    <footer>
+
+        <table align="center">
+
+            <tr>
+
+                <td rowspan="4" ><img id="logo" src="../img/logo.png" alt="" width="100px", height="100px"></td>
+
+            </tr>
+
+            <tr>
+                <td id="footer_padding">HYD</td>
+
+                <td><a href="#facebook"><img id="socialIcons" src="../img/facebook.png", height="30px", width="30px">Facebook</a></td>
+
+                <td id="padding"><a href="#politikalar">Politikalar</a></td>
+
+            </tr>
+
+            <tr>
+                <td>Ltd.</td>
+
+                <td style="width: 45%;"><a href="#instagram"><img id="socialIcons" src="../img/instagram icon.png", height="30px", width="30px">Instagram</a></td>
+
+                <td><a href="../html/iletisim.html">İletişim</a></td> 
+
+            </tr>
+
+            <tr>
+
+                <td>Co.</td>
+
+                <td><a href="#linkedIn"><img id="socialIcons" src="../img/linkedin icon.webp", height="30px", width="30px">LinkedIn</a></td>
+
+                <td><a href="#adres">Adres</a></td>
+
+            </tr>
+
+        </table>
+
+    </footer>
+    
+</body>
